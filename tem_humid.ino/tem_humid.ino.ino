@@ -1,10 +1,10 @@
 #include "DHT.h"
 
 //0,1,7,15,16
-#define low_dt1 0
-#define low_dt2 1
-#define low_dt3 7
-#define low_dt4 15
+#define low_dt1 15
+#define low_dt2 28
+#define low_dt3 27
+#define low_dt4 26
 #define high_dt 22
 
 
