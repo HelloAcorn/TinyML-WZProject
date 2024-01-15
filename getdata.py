@@ -14,6 +14,7 @@ with open(filename, 'r') as file:
     reader = csv.reader(file)
     row_count = sum(1 for row in reader)  # 모든 행을 순회하며 세기
 
+
 with open(filename, 'a', newline='') as file:  # 'a' 모드로 파일 열기
     writer = csv.writer(file)
     if not file_exists:
