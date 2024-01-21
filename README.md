@@ -12,3 +12,5 @@
 
 ## 플로우차트
 ![image](https://github.com/WzAcorn/TinyML-HygroPredict/assets/77008882/280a5b1c-7db5-4781-9c67-7eb634ab9a7c)
+
+[📈플로우차트 사이트](https://app.diagrams.net/#HWzAcorn%2FTinyML-HygroPredict%2Fmain%2FSystemFlowchart.drawio)
