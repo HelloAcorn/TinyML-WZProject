@@ -1,6 +1,8 @@
 # 📌TinyML-HygroPredict
 
 이 프로젝트는 저감도 센서 데이터를 활용하여 온습도 예측치를 보강하는 프로젝트입니다. 이 프로젝트는 TinyML 기술을 사용하여 제한된 계산 자원에서도 효율적으로 환경 데이터를 처리하고 분석합니다. 저전력 센서에서 수집된 데이터를 기반으로, 온도와 습도의 변화를 더 정확하게 예측하고자 합니다.
+![image](https://github.com/WzAcorn/TinyML-HygroPredict/assets/77008882/1ab07dca-223d-4527-aa2b-396b01b5bce7)
+
 
 ## 주요 기능
 
