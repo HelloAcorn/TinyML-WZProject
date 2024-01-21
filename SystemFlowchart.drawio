@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" modified="2024-01-21T11:15:41.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ose49GTMm1xKiIpXWCnH" version="22.1.21" type="github">
+  <diagram name="페이지-1" id="4etdl_fOZWTmvzS56bRd">
+    <mxGraphModel dx="1996" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-1" value="Deployment on Arduino" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="399" y="760" width="726" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-2" value="Load TFLite Modules" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-1">
+          <mxGeometry x="43" y="33" width="162" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-3" value="Sensor Readings in Loop" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-1">
+          <mxGeometry x="255" y="33" width="186" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-4" value="Invoke Model and Compare" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-1">
+          <mxGeometry x="491" y="33" width="208" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-5" target="6U3zVZkpd8FMqvewWA9Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-5" value="Model Quantization" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="619" width="496" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-6" value="Convert Model to TFLite" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-5">
+          <mxGeometry x="43" y="33" width="188" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-7" value="Create .h and .cpp Files" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-5">
+          <mxGeometry x="281" y="33" width="188" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-8" target="6U3zVZkpd8FMqvewWA9Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-8" value="Model Evaluation" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="536.5" y="473" width="450" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-9" value="Calculate Metrics (MSE, MAE)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-8">
+          <mxGeometry x="43" y="33" width="223" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-10" value="Visualization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-8">
+          <mxGeometry x="316" y="33" width="107" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-11" target="6U3zVZkpd8FMqvewWA9Q-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-11" value="Neural Network Training" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="400" y="322" width="725" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-12" value="Data Preprocessing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-11">
+          <mxGeometry x="43" y="33" width="151" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-13" value="Model Building in TensorFlow" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-11">
+          <mxGeometry x="244" y="33" width="224" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-14" value="Training and Validation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-11">
+          <mxGeometry x="517" y="33" width="180" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.483;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-15" target="6U3zVZkpd8FMqvewWA9Q-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-15" value="Data Collection" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="469.5" y="180" width="563" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-16" value="Serial Communication with Pico" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-15">
+          <mxGeometry x="43" y="33" width="242" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-17" value="Data Accumulation as CSV" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-15">
+          <mxGeometry x="335" y="33" width="201" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-18" target="6U3zVZkpd8FMqvewWA9Q-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-18" value="Sensor Configuration" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="539" y="40" width="426" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6U3zVZkpd8FMqvewWA9Q-18" source="6U3zVZkpd8FMqvewWA9Q-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="50.470588235294144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-19" value="High-Cost Sensor (±0.5 C, ±2%)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-18">
+          <mxGeometry x="12.87" y="33" width="187.13" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-20" value="Low-Cost Sensor (±2 C, ±5%)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="6U3zVZkpd8FMqvewWA9Q-18">
+          <mxGeometry x="210" y="33" width="205.4" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-24" value="Project Start" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1300.5" y="150" width="107" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-25" value="Sensor Configuration" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1272" y="240" width="164" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-26" target="6U3zVZkpd8FMqvewWA9Q-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-26" value="Data Collection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1291" y="314" width="126" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-27" target="6U3zVZkpd8FMqvewWA9Q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-27" value="Neural Network Training" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="405" width="188" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-28" target="6U3zVZkpd8FMqvewWA9Q-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-28" value="Model Evaluation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="482" width="138" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-29" target="6U3zVZkpd8FMqvewWA9Q-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-29" value="Model Quantization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1276.5" y="557" width="155" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-30" value="Deployment on Arduino" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1263" y="625" width="182" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-32" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-24" target="6U3zVZkpd8FMqvewWA9Q-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1354" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6U3zVZkpd8FMqvewWA9Q-25" target="6U3zVZkpd8FMqvewWA9Q-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6U3zVZkpd8FMqvewWA9Q-39" value="Project End" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="703" width="98" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
