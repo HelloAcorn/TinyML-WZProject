@@ -26,7 +26,7 @@ This project covers how to improve the performance difference between high-cost 
 
 
 ## 🔗 Link
-- [Maker](https://maker.wiznet.io/Acorn_/projects/tinyml%2Dhygropredict%2D1%2Ddata%2Dvisualization%2Dand%2Dvalidation/)
+- [WiznetMaker](https://maker.wiznet.io/Acorn_/projects/tinyml%2Dhygropredict%2D1%2Ddata%2Dvisualization%2Dand%2Dvalidation/)
 - [hackster.io](https://www.hackster.io/dbsghd3820/tinyml-using-low-sensitivity-sensor-to-predict-high-per-f9154f)
 - [youtube](https://www.youtube.com/watch?v=K8MrS-Cnfuw)
 
