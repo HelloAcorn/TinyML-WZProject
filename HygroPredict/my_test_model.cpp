@@ -17,7 +17,7 @@ limitations under the License.
 // xxd -i sine_model.tflite > sine_model_data.cc
 // See the README for a full description of the creation process.
 
-#include "tensorflow/lite/micro/examples/TinyML-HygroPredict/my_test_model.h"
+#include "my_test_model.h"
 
 // We need to keep the data array aligned on some architectures.
 #ifdef __has_attribute

@@ -14,6 +14,9 @@ limitations under the License.
 ==============================================================================*/
 #include "DHT.h"
 #include <TensorFlowLite.h>
+
+#include "main_functions.h"
+
 #include "my_test_model.h"
 #include "tensorflow/lite/micro/kernels/all_ops_resolver.h"
 #include "tensorflow/lite/micro/micro_error_reporter.h"
