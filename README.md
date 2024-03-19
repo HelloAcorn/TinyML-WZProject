@@ -1,4 +1,4 @@
-# 📌TinyML-HygroPredict
+# 📌TinyML-SensorMLPredict
 
 
 ![image](https://github.com/WzAcorn/TinyML-HygroPredict/assets/77008882/1ab07dca-223d-4527-aa2b-396b01b5bce7)
