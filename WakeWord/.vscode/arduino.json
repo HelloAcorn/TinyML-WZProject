@@ -1,0 +1,6 @@
+{
+    "port": "COM13",
+    "board": "arduino:mbed_rp2040:pico",
+    "programmer": "jlink",
+    "sketch": "WakeWord.ino"
+}
