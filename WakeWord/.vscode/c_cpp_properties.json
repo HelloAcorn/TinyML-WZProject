@@ -2,6 +2,24 @@
     "version": 4,
     "configurations": [
         {
+            "name": "Win32",
+            "compilerPath": "C:\\mingw64\\bin",
+            "compilerArgs": [],
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:\\workspace\\PentaChord\\TinyML-WZPredict\\src"
+            ],
+            "forcedInclude": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        },
+        {
             "name": "Arduino",
             "compilerPath": "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\bin\\arm-none-eabi-g++",
             "compilerArgs": [
@@ -12,6 +30,8 @@
             "includePath": [
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino",
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\variants\\RASPBERRY_PI_PICO",
+                "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src",
+                "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\fix_fft\\src",
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino\\api\\deprecated",
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino\\api\\deprecated-avr-comp",
                 "c:\\users\\acorn\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1",

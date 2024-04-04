@@ -2,5 +2,14 @@
     "port": "COM13",
     "board": "arduino:mbed_rp2040:pico",
     "programmer": "jlink",
-    "sketch": "WakeWord.ino"
-}
+    "sketch": "WakeWord.ino",
+    "output": "./build",
+    "buildPreferences": {
+      "build.warn_data_percentage": "90",
+      "build.warn_advanced_ops": "1",
+      "fqbn": "arduino:mbed_rp2040:pico",
+      "compiler.optimization_flags": "-Os",
+      "compiler.cpp.extra_flags": "-Wno-error=narrowing",
+      "compiler.debug_level": "debug"
+    }
+  }

@@ -1,0 +1,16 @@
+#line 1 "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\.vscode\\arduino.json"
+{
+    "port": "COM13",
+    "board": "arduino:mbed_rp2040:pico",
+    "programmer": "jlink",
+    "sketch": "WakeWord.ino",
+    "output": "./build",
+    "buildPreferences": {
+      "build.warn_data_percentage": "90",
+      "build.warn_advanced_ops": "1",
+      "fqbn": "arduino:mbed_rp2040:pico",
+      "compiler.optimization_flags": "-Os",
+      "compiler.cpp.extra_flags": "-Wno-error=narrowing",
+      "compiler.debug_level": "debug"
+    }
+  }

@@ -1,0 +1,387 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\variants\\RASPBERRY_PI_PICO"
+  },
+  {
+    "Sourcefile": "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\build\\sketch\\WakeWord.ino.cpp",
+    "Include": "TensorFlowLite.h",
+    "Includepath": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src"
+  },
+  {
+    "Sourcefile": "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\build\\sketch\\WakeWord.ino.cpp",
+    "Include": "fix_fft.h",
+    "Includepath": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\fix_fft\\src"
+  },
+  {
+    "Sourcefile": "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\build\\sketch\\WakeWord.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\build\\sketch\\voice_recognition_model.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\c\\common.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\core\\api\\error_reporter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\core\\api\\flatbuffer_conversions.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\core\\api\\op_resolver.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\core\\api\\tensor_utils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\fft.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\fft_util.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\filterbank.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\filterbank_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\frontend.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\frontend_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\log_lut.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\log_scale.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\log_scale_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\noise_reduction.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\noise_reduction_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\pcan_gain_control.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\pcan_gain_control_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\window.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\experimental\\microfrontend\\lib\\window_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\kernels\\internal\\quantization_util.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\kernels\\kernel_util.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\arduino\\debug_log.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\activations.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\add.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\all_ops_resolver.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\arg_min_max.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\ceil.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\circular_buffer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\comparisons.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\concatenation.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\conv.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\dequantize.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\elementwise.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\floor.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\fully_connected.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\logical.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\logistic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\maximum_minimum.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\mul.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\neg.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\pack.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\pad.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\pooling.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\portable_optimized\\depthwise_conv.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\prelu.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\quantize.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\reduce.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\reshape.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\round.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\softmax.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\split.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\strided_slice.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\svdf.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\kernels\\unpack.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\memory_helpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\memory_planner\\greedy_memory_planner.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\memory_planner\\linear_memory_planner.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_allocator.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_error_reporter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_interpreter.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_optional_debug_tools.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_string.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_time.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\micro_utils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\simple_memory_allocator.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\test_helpers.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\testing\\test_utils.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\tools\\make\\downloads\\kissfft\\kiss_fft.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\Arduino_TensorFlowLite\\src\\tensorflow\\lite\\micro\\tools\\make\\downloads\\kissfft\\tools\\kiss_fftr.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\fix_fft\\src\\fix_fft.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

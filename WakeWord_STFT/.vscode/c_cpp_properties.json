@@ -12,7 +12,7 @@
             "includePath": [
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino",
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\variants\\RASPBERRY_PI_PICO",
-                "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\arduinoFFT\\src",
+                "C:\\Users\\Acorn\\Documents\\Arduino\\libraries\\fix_fft\\src",
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino\\api\\deprecated",
                 "C:\\Users\\Acorn\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_rp2040\\4.0.10\\cores\\arduino\\api\\deprecated-avr-comp",
                 "c:\\users\\acorn\\appdata\\local\\arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4\\arm-none-eabi\\include\\c++\\7.2.1",
