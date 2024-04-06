@@ -13,7 +13,7 @@
 #include <fix_fft.h>
 
 // 모델 관련 상수 정의
-const int kTensorArenaSize = 2 * 1024;  // 텐서 아레나 크기 증가
+const int kTensorArenaSize = 8 * 1024;  // 텐서 아레나 크기 증가
 const int kNumInputs = 1;
 const int kNumOutputs = 1;
 const int kInputFrames = 4;
@@ -21,7 +21,7 @@ const int kInputShape[4] = {1, 257, kInputFrames, 1};
 const int kOutputSize = 3;
 const int analogSensorPin = 26;
 const int ledPin = LED_BUILTIN;
-const int sampleRate = 1000;
+const int sampleRate = 1028;
 const int sampleTime = 1;
 const int totalSamples = sampleRate * sampleTime;
 int16_t vReal[totalSamples];
@@ -61,8 +61,9 @@ String inference(float* input_data) {
   TfLiteTensor* input = interpreter.input(0);
 
   // 입력 데이터 복사
+  // 여기서 stft변환이 이뤄져야됌.
   for (int i = 0; i < 257 * kInputFrames; i++) {
-    input->data.f[i] = input_data[i];
+    input->data.f[i] =  - sqrt(input_data[i] * input_data[i] /75);
   }
 
   // 추론 실행
@@ -84,16 +85,19 @@ String inference(float* input_data) {
     }
   }
 
-  // 결과 반환
+  // 결과 반환(확률 포함)
+  char resultStr[50]; // 결과를 저장할 문자열 버퍼
   if (predicted_class == 0) {
-    return "Nothing";
+    snprintf(resultStr, 50, "Nothing (%.2f%%)", max_probability * 100);
   } else if (predicted_class == 1) {
-    return "WIZnet";
+    snprintf(resultStr, 50, "HUHU (%.2f%%)", max_probability * 100);
   } else if (predicted_class == 2) {
-    return "You";
+    snprintf(resultStr, 50, "HUU~~ (%.2f%%)", max_probability * 100);
+  } else {
+    snprintf(resultStr, 50, "Unknown (%.2f%%)", max_probability * 100);
   }
 
-  return "Unknown";
+  return String(resultStr);
 }
 
 void fft_wrapper(int16_t* vReal, int16_t* vImag, int n, int inverse) {
@@ -103,6 +107,7 @@ void fft_wrapper(int16_t* vReal, int16_t* vImag, int n, int inverse) {
 
 void setup() {
   // 시리얼 통신 초기화
+  Serial.print("무야호");
   Serial.begin(9600);
   pinMode(ledPin, OUTPUT);
 }
@@ -118,7 +123,6 @@ void loop() {
       while (millis() < startTime + (i * 1000.0 / sampleRate));
     }
     digitalWrite(ledPin, LOW);
-
     // FFT 계산
     fft_wrapper(vReal, vImag, 10, 0);
 
@@ -128,7 +132,6 @@ void loop() {
       audio_buffer[audio_buffer_index++] = magnitude;
     }
   }
-
   // 오디오 버퍼가 가득 찼을 때 추론 수행
   if (audio_buffer_index >= 257 * kInputFrames) {
     // 추론 실행

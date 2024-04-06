@@ -8,14 +8,14 @@
 #include "tensorflow/lite/micro/micro_interpreter.h"
 #include "tensorflow/lite/schema/schema_generated.h"
 #include "tensorflow/lite/version.h"
-#undef ARDUINO_EXCLUDE_CODE
+#undef ARDUINO_EXCLUDE_CODE   
 
 #include "voice_recognition_model.h"  // 변환된 모델 파일 포함
 
 #include <fix_fft.h>
 
 // 모델 관련 상수 정의
-const int kTensorArenaSize = 2 * 1024;  // 텐서 아레나 크기 증가
+const int kTensorArenaSize = 8 * 1024;  // 텐서 아레나 크기 증가
 const int kNumInputs = 1;
 const int kNumOutputs = 1;
 const int kInputFrames = 4;
@@ -23,7 +23,7 @@ const int kInputShape[4] = {1, 257, kInputFrames, 1};
 const int kOutputSize = 3;
 const int analogSensorPin = 26;
 const int ledPin = LED_BUILTIN;
-const int sampleRate = 1000;
+const int sampleRate = 1028;
 const int sampleTime = 1;
 const int totalSamples = sampleRate * sampleTime;
 int16_t vReal[totalSamples];
@@ -39,15 +39,6 @@ float audio_buffer[257 * kInputFrames];
 int audio_buffer_index = 0;
 
 // 모델 추론 함수
-#line 40 "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\WakeWord.ino"
-String inference(float* input_data);
-#line 99 "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\WakeWord.ino"
-void fft_wrapper(int16_t* vReal, int16_t* vImag, int n, int inverse);
-#line 104 "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\WakeWord.ino"
-void setup();
-#line 110 "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\WakeWord.ino"
-void loop();
-#line 40 "C:\\workspace\\PentaChord\\TinyML-WZPredict\\WakeWord\\WakeWord.ino"
 String inference(float* input_data) {
   // 에러 리포터 설정
   tflite::MicroErrorReporter micro_error_reporter;
@@ -114,23 +105,24 @@ void fft_wrapper(int16_t* vReal, int16_t* vImag, int n, int inverse) {
 
 void setup() {
   // 시리얼 통신 초기화
+  Serial.print("무야호");
   Serial.begin(9600);
   pinMode(ledPin, OUTPUT);
 }
 
 void loop() {
-  Serial.print("PLEASE Recognized word: ");
   // 오디오 입력 받기
+  Serial.print("무야호2");
   if (audio_buffer_index < 257 * kInputFrames) {
-    digitalWrite(ledPin, HIGH);
+    // digitalWrite(ledPin, HIGH);
     startTime = millis();
     for (int i = 0; i < totalSamples; i++) {
       vReal[i] = analogRead(analogSensorPin);
       vImag[i] = 0;  // 허수부는 0으로 초기화
       while (millis() < startTime + (i * 1000.0 / sampleRate));
     }
-    digitalWrite(ledPin, LOW);
-
+    // digitalWrite(ledPin, LOW);
+    Serial.print("무야호3");
     // FFT 계산
     fft_wrapper(vReal, vImag, 10, 0);
 
@@ -140,7 +132,7 @@ void loop() {
       audio_buffer[audio_buffer_index++] = magnitude;
     }
   }
-
+  Serial.print("무야호4");
   // 오디오 버퍼가 가득 찼을 때 추론 수행
   if (audio_buffer_index >= 257 * kInputFrames) {
     // 추론 실행
@@ -154,5 +146,5 @@ void loop() {
     audio_buffer_index = 0;
   }
 
-  delay(500);  // 500밀리초 대기
+  delay(2500);  // 500밀리초 대기
 }
