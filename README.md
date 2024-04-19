@@ -36,6 +36,11 @@ This post discusses a system for speech recognition. It covers the principles of
  - The process from preprocessing of speech data through Fourier transform and STFT to model training and conversion to TensorFlow Lite is explained. 
  - A method to utilize the model trained through Arduino for voice recognition in real time is presented.
 
+
+## 📈FlowChart
+![image](https://github.com/WzAcorn/TinyML-WZProject/assets/77008882/b4189976-4f13-40cc-8112-17111b62faf6)
+
+
 ## 🔗 Link
  - [WiznetMaker](https://maker.wiznet.io/Acorn_/projects/tinyml%2Dwakeword%2Ddetection/?serob=rd&serterm=month)
  - [youtube](https://www.youtube.com/shorts/CfJKs5EapFk)
